@@ -26,6 +26,7 @@ const AboutSection = () => {
                   src={profileImg}
                   alt="Ayush Gupta - Portraitwala"
                   className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
               </div>

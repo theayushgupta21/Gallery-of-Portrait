@@ -114,6 +114,7 @@ const Lightbox = () => {
                 src={currentImage.url}
                 alt={currentImage.title}
                 className="w-full max-h-[75vh] object-contain mx-auto"
+                loading="lazy"
               />
               {/* Corner Accents */}
               <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-gold/20" />
