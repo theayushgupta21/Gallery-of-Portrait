@@ -4,7 +4,7 @@ import { ArrowUpRight, BookOpen } from 'lucide-react';
 
 import journalImg1 from '../../assets/creative jornal/IMG20230508063801.jpg';
 import journalImg2 from '../../assets/creative jornal/IMG_20230314_0851441.jpg';
-import journalImg3 from '../../assets/creative jornal/IMG_8543.JPG';
+import journalImg3 from '../../assets/creative jornal/IMG_8543.jpg';
 
 const journalPosts = [
   {
