@@ -15,8 +15,11 @@ node_modules/
 *.psd
 *.jpg
 *.png
+*.webp
+*.jpeg
 dist/
 build/
+src/assets/
 
 # Editor directories and files
 .vscode/*

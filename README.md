@@ -35,8 +35,8 @@ Each "Art of Frame" is paired with a **unique poetic shayari**. These 50 distinc
 ```text
 portraitwalagallery/
 ├── src/
-│   ├── assets/               # Photographic assets
-│   │   ├── creative jornal/  # Images for the journal section
+│   ├── assets/               # Photographic assets (High-resolution)
+│   │   ├── creative jornal/  # Original high-res journal images
 │   │   ├── profile/          # Artist profile photos
 │   │   └── *.jpg             # Main gallery frames (50 total)
 │   ├── components/

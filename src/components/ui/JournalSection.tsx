@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, BookOpen } from 'lucide-react';
 
-import journalImg1 from '../../assets/creative jornal/IMG20230508063801.jpg';
-import journalImg2 from '../../assets/creative jornal/IMG_20230314_0851441.jpg';
+import journalImg1 from '../../assets/creative jornal/IMG20230508063801.webp';
+import journalImg2 from '../../assets/creative jornal/IMG_20230314_0851441.webp';
 import journalImg3 from '../../assets/creative jornal/IMG_8543.jpg';
 
 const journalPosts = [
@@ -45,7 +45,7 @@ const JournalSection = () => {
             Stories & <span className="gold-gradient">Reflections</span>
           </h2>
           <p className="text-white/40 mt-6 font-sans tracking-wide leading-relaxed">
-            A deeper dive into the thoughts, techniques, and emotions behind the frames. 
+            A deeper dive into the thoughts, techniques, and emotions behind the frames.
             Welcome to my digital diary of light and shadow.
           </p>
         </div>
@@ -76,9 +76,9 @@ const JournalSection = () => {
               />
               <div className="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors duration-500" />
               <div className="absolute top-4 left-4">
-                 <span className="bg-navy/80 backdrop-blur-md text-gold text-[8px] tracking-[0.2em] px-3 py-1 uppercase rounded-full border border-gold/10">
-                   {post.readTime}
-                 </span>
+                <span className="bg-navy/80 backdrop-blur-md text-gold text-[8px] tracking-[0.2em] px-3 py-1 uppercase rounded-full border border-gold/10">
+                  {post.readTime}
+                </span>
               </div>
             </div>
 
@@ -90,7 +90,7 @@ const JournalSection = () => {
               <p className="text-white/40 text-sm font-sans leading-relaxed line-clamp-3">
                 {post.excerpt}
               </p>
-              
+
               <div className="pt-4 overflow-hidden">
                 <div className="w-8 h-[1px] bg-gold group-hover:w-full transition-all duration-700" />
               </div>
