@@ -6,13 +6,15 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+
 node_modules/
 *.mp4
+*.mov
 *.zip
 *.psd
-*.mov
-*.png
 *.jpg
+*.png
 dist/
 build/
 
